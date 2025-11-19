@@ -1,6 +1,7 @@
 function alertMessage (message){
     return function (){
         alert(message)
+        console.log(message)
     }
 }
 
